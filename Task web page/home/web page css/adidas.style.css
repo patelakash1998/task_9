@@ -1,0 +1,271 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+                                                         /* NAVBAR */
+
+.navbar{
+    background-color:#BDF516;
+       font-size: 20px;
+       margin-right: 0%;
+       display: flex;
+       justify-content:space-between;
+ }
+
+
+
+
+
+ ul li{
+     list-style-type: none;
+     display: inline-block;
+     padding: 0px 25px;
+     line-height: 20px;
+    
+    }
+
+.menu-right ul li a{
+    color:GREEN;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.menu-right ul li a:hover{
+    display: block;
+    color: white;
+    border-radius:60px; 
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+ .active,.menu-right ul li a:hover{
+
+    background:cadetblue;
+
+    border-radius: 50px;    
+    
+}
+ 
+.submenu{
+    display: none;
+}
+
+
+
+
+.menu-right ul li:hover .submenu{
+
+    display: block;
+    position: absolute;
+    background:orange;
+    top:65px;
+    margin-left: -25px;
+    line-height: 20px;
+}
+
+
+.menu-right ul li:hover .submenu li{
+
+display: block;
+background: transparent;
+width: 90px;
+height: 20px;
+line-height: 20px;
+}
+
+
+.menu-right ul li:hover .submenu li a{
+    display: block;
+    text-decoration: none;
+}
+
+.menu-right ul li:hover .submenu li a:hover{
+    display: block;
+    text-decoration: none;
+}
+
+  .adidas-logo{
+     width: 58px;
+     height: 68px;
+     padding: 0px 25px;
+ }
+
+ button{
+    margin: 20px 20px 0px 15px;
+ }
+ .btn{
+    padding:9px;
+    width:82px;
+    border:3px;
+    color:white;
+    background-color:black;
+    border-radius: 20px;
+    max-width: 0px 20px;
+}
+
+
+
+                                                                 /* BANNER IMAGES */
+
+
+ .banner{
+    width: 100%;
+}
+
+
+h3{
+    font-size: 48px;
+}
+
+
+.otp{
+    font-size: 36px;
+    font-family: emoji;
+    text-align: center;
+    margin: 27px;
+}
+
+.container{
+    width: 90%;
+    margin: 0% auto;
+}
+
+
+                                                                 /* SHOES  */
+
+.tft{
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.pop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.good{
+text-transform: capitalize;
+font-size: 25px;
+margin: 10px 10px 55px 10px;
+font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+
+                                                     /* IMAGES */
+
+.box{
+    display: flex;
+   align-items: center;
+   gap: 10px;
+
+}
+
+.three img{
+    width: 400px;
+    height: 400px;
+  
+}
+
+.three{
+    border: 3px solid green;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h2{
+    margin-bottom: 24px;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: end;
+    width: auto;
+    padding-bottom: 40px;
+    border-bottom: 2px solid black;
+}
+
+/* h2:hover{
+    border-bottom: 2px solid black;
+} */
+
+.offer{
+    text-align: center;
+    /* font-size: 42px; */
+}
+del{
+    float: left;
+ }
+
+ h5{
+    text-align: center;
+ }
+
+
+
+.key{
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-family: cursive;
+    margin-left: 0%;
+}
+.up{
+    border: 5px inset black;
+    font-size: inherit;
+    margin-left: 33px;
+    color: white;
+    background: black;
+    padding-right:15px;
+    padding-bottom: 05px;
+}
+
+
+                                                          /* <!-- PRODUCT DETALIES --> */
+
+.down{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.dut{
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+img,.follow{
+    width: 32px;
+}
+
+
+
+
+
+                                                                      /* FOOTER */
+
+
+footer{
+    background-color:black;
+ 
+}
+
+.my-footer{
+
+padding: 22px 22px 30px 22px;
+text-align: center;
+font-size:medium;
+color: white;
+}
+
+

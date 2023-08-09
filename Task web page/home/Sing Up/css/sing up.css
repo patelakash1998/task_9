@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(../images/bg02.jpg);
+    max-width:1300px;
+    height: 800px;
+   
+}
+.place{
+    color: red;
+}
+
+.plus{
+    text-align: center;
+    margin: 25%;
+}
+.top{
+    border: 2px solid rebeccapurple;
+    border-radius: 12px;
+    width: 70%;
+    margin-left: 135px;
+   background-color: rgba(241, 220, 245, 0.614);
+}
+
+.pick{
+ padding: 20px 20px 10px 20px;
+  
+}
+
+.ext{
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+  
+}
+
+.boat{
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    background-color: blue;
+    margin: 10px;
+    width: 75px;
+    border: none;
+}
+
+#Email Address input::placeholder{
+    text-align:right;
+}
